@@ -32,3 +32,7 @@ Traer Objeto: Metodo get. getFirst y getLast
 
 ### Stacks
 Orden LIFO
+Declaracion: Stack<Object> "Nombre" = new Stack<Object>();
+Añadir: Metodo push
+Buscar Elemento: Search(Indice). Metodo Peek Ultimo elemento Agregado
+Eliminar Ultimo Registro: Metodo Pop
