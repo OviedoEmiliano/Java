@@ -19,6 +19,9 @@ Mecanismo para simplificar el desarrollo de apps al proporcionar config y depend
 - @ComponentScan: Se encarga de revisar los paquetes actuales que tengan anotaciones de esteriotipo(Controller ,service, repository)
 - @SpringBootConfiguration: indica que la clase notada es una fuente de definiciones de bins, te dice que una clase tiene una cierta cantidad de bins
 @Entity: Entidad
-@Controller
+@Controller: Indica que va a recibir peticiones
 @Service:
 @Repository
+@GetMapping
+@RequestMapping
+@ResponseBody: para mostrar por la web un string
