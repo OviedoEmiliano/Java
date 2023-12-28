@@ -4,12 +4,12 @@ Esta incluido en el starter-web
 * Patrones de diseños Dispatcher Servlet y Modelo Vista Controlador
 * Asignacion de controladores, controladores anotados
 * Manejo de Formularios y validacion de formularios
-* 
+  
 ## Modelo Vista Controlador
 * Controlador: Recibe peticiones del cliente. No se comunica directamente con la DDBB, sino se comunica con el modelo. Una vez recibido los datos los envia a la vista
 * Modelo: Se Comunica con la base de datos. Y le envia al controlador los datos
 * Vista: Interactua con el cliente, Muestra los datos
-* 
+  
 ## Capas de Spring MVS
 * Presentacion: "Vista". @Controller recibe peticiones y las envia a negocio. Una vez terminado el ciclo y obtenidos los datos los muestra por la vista
 * Negocio: @Services, operaciones de negocio
