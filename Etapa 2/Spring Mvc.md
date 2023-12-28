@@ -19,10 +19,11 @@ Esta incluido en el starter-web
 @Component: Componente de Spring. Indica a Spring que esa clase cumple cierta funcion
 Son aquellas anotaciones que extienden de otra anotacion
 define un conjunto de anotaciones que categorizan cada uno de los componentes asonciandoles una responsabilidad concreta
+
 *@Repository:Se encarga de dar de alta un bean. ese bean va a interactuar con la DDBB
 Bean: Componente o elemento de spring
 
 *@Service: se encarga de gestionar las operaciones de negocio a nivel de la aplicacion. y aglutina llamadas a varios repositorios de forma simultanea.
 Su tarea fundamental es la de agregador, implementa el patron fachada y aglutina varios repositorios y llamadas a otros servicios
 
-@Controller: realiza la tarea de controlador y gestion de la comunicacion entre el usuario y el aplicativo. se apoya habitualmente en algun motor de plantillas o librerias de etiquetas que facilitan la creacion de paginas
+*@Controller: realiza la tarea de controlador y gestion de la comunicacion entre el usuario y el aplicativo. se apoya habitualmente en algun motor de plantillas o librerias de etiquetas que facilitan la creacion de paginas
