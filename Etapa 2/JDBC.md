@@ -3,3 +3,6 @@ Api que permite conectarse a base de datos estandar SQL, proporciona un acceso u
 * Establece una conexion con la base de datos
 * Envia Sentencias SQL
 * Procesa los resultados
+
+## Statement
+## ResultSet
