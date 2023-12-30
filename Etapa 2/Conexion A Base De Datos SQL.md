@@ -33,16 +33,16 @@
 ## Realizar Consulta
 -Clase PreparedStatement, Revisar Datos de una Tabla y Agregar/Borrar/Modificar. Mayor Flexibilidad que Statement, en consultas se puede utilizar el '?'
 
-try{
-  conn = Conexion.getConexion();
-  PreparedStatement ps = conn.prepareStatement("SELECT * FROM 'table' WHERE id = ? ")
-  ps.setInt(1,1);. Int porque ID es entero, sino otro tipo de dato.
-  rs = ps.executeQuery();
-  
-  while(rs.next()){
-    //Mostrar Cada Columna de la Tabla
-  }
-}catch(SQLException e){
-  System.out.println(e.toString());
-
-}
+    try{
+      conn = Conexion.getConexion();
+      PreparedStatement ps = conn.prepareStatement("SELECT * FROM 'table' WHERE id = ? ")
+      ps.setInt(1,1);. Int porque ID es entero, sino otro tipo de dato.
+      rs = ps.executeQuery();
+      
+      while(rs.next()){
+        //Mostrar Cada Columna de la Tabla
+      }
+    }catch(SQLException e){
+      System.out.println(e.toString());
+    
+    }
