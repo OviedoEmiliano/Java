@@ -5,18 +5,18 @@ Se encarga de recibir peticiones
 ### doGet(): 
 Se encarga de recibir las solicitudes que provienen mediante GET. Recibir Info
 
-HttpSession misesion = request.getSession();
-misesion.setAttribute("listaUser", ListaUser)
-response.sendRedirect("mostrarUsuarios.jsp");
-
-<%
-List<Usuario> listaUsuarios = (List) request.getSession().getAttribute("listaUsuarios");
-for(Usuario usu : listaUsuarios){
-%>
-......................HTML..................
-<%
-}
-%>
+    HttpSession misesion = request.getSession();
+    misesion.setAttribute("listaUser", ListaUser)
+    response.sendRedirect("mostrarUsuarios.jsp");
+    
+    <%
+    List<Usuario> listaUsuarios = (List) request.getSession().getAttribute("listaUsuarios");
+    for(Usuario usu : listaUsuarios){
+    %>
+    // ......................HTML..................
+    <%
+    }
+    %>
 
 ### doPost(): 
 Se encarga de recibir las solicitudes que provienen mediante POST. Enviar Info
