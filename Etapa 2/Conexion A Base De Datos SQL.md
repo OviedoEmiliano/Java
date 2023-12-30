@@ -10,10 +10,15 @@
 ## Crear Clase de Conexion
 
 Public static Connection getConexion(){
+
   String conexionUrl = "jdbc:sqlserver://localhost:1433;"
+  
           + "database=name;"
+          
           + "user=sa;"
+          
           + "password=xxxxxx;"
+          
           + "loginTimeout=time;"; - Parametro Adicional, tiempo que tarda en procesar la conexion.
   
   try{
