@@ -35,7 +35,7 @@ Es mas seguro
           statement.close();
         } 
 
-##Transacciones
+## Transacciones
 Decir a SQl que ejecute transacciones como un solo bloque ("BEGIN"-"COMMIT"). Motor InnoDB de MySQL soporta transacciones.
 avisar a jdbc que vas a utilizar modo transaccional con "conexion.setAutoCommit(false)"
 palabra clave final, significa que la clase no puede tener subclases, la herencia esta prohibida. util cuando se crean objetos inmutables
